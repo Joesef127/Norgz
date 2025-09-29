@@ -2,7 +2,7 @@ import ProjectHero from "../components/ProjectHero";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="w-full">
       <ProjectHero />
     </div>
   )}
