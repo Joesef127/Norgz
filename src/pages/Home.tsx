@@ -13,7 +13,7 @@ import WhoWeAre from "../components/WhoWeAre";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <HomeHero />
       <HomeFeature />
       <WhoWeAre />

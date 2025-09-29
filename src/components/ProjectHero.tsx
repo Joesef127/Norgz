@@ -3,7 +3,7 @@ import chaligon_logo_white from "../assets/images/Chaligon_logo_white.svg";
 
 const ProjectHero = () => {
   return (
-    <div className="pt-[124px] flex flex-col justify-center items-center text-white w-screen h-full relative overflow-hidden">
+    <div className="pt-[124px] flex flex-col justify-center items-center text-white w-full h-full relative overflow-hidden">
       <div
         className="absolute inset-0 w-full h-full bg-top bg-cover bg-no-repeat"
         style={{

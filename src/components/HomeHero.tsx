@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 
 const HomeHero = () => {
   return (
-    <div className="pt-[124px] flex flex-col justify-center items-center text-white w-screen h-full relative bg-[#0C3635]/60 overflow-hidden">
+    <div className="pt-[124px] flex flex-col justify-center items-center text-white w-full h-full relative">
       <div
         className="absolute inset-0 w-full h-full bg-center bg-cover bg-no-repeat"
         style={{
