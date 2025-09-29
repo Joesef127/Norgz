@@ -1,6 +1,6 @@
 import maps_location from "../assets/icons/maps_location.svg";
 import progress from "../assets/icons/progress.svg";
-import capa from "../assets/icons/capa.svg";
+import capa from "../assets/icons/star.svg";
 import massage from "../assets/icons/massage.svg";
 import hallway from "../assets/icons/hallway.svg";
 import red_carpet from "../assets/icons/red_carpet.svg";
