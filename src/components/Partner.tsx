@@ -19,6 +19,8 @@ const Partner = () => {
               <div
                 key={index}
                 className="relative lg:w-[300px] h-48 sm:h-[360px] lg:h-[404px] flex justify-center pt-12 sm:pt-0 item-start sm:items-center bg-[#0C3635]"
+                data-aos="fade-up"
+                data-aos-delay={`${index * 150}`}
               >
                 <p className="text-center px-5 text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-[#CA9762] leading-[110%] -tracking-[-0.72px]">
                   {item}

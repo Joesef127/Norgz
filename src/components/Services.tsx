@@ -18,6 +18,8 @@ const Services = () => {
                 key={index}
                 style={{ backgroundImage: `url(${item.image})` }}
                 className="bg-cover bg-center bg-no-repeat w-full h-[360px] lg:h-[404px] pl-5 xl:pl-7 pr-3 pb-12 flex justify-start items-end"
+                data-aos="fade-up"
+                data-aos-delay={`${index * 150}`}
               >
                 <p className="text-2xl md:text-lg lg:text-2xl xl:text-[28px] text-white leading-snug -tracking-tight">
                   {item.caption}

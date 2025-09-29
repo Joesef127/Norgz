@@ -14,7 +14,11 @@ const NorgzEdge = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 w-full">
           {edgeData.map((item, index) => {
             return (
-              <div className="grid grid-rows-2">
+              <div
+                className="grid grid-rows-2"
+                data-aos="fade-up"
+                data-aos-delay={`${index * 150}`}
+              >
                 <div
                   key={index}
                   style={{ backgroundImage: `url(${item.image})` }}
@@ -27,7 +31,11 @@ const NorgzEdge = () => {
                   <p className="text-white text-lg font-light leading-[140%] tracking-[-0.09px]">
                     {item.desc}
                   </p>
-                  <img src={pattern} alt="pattern" className="absolute bottom-0 right-0 -mb-5 lg:-mb-3 w-full" />
+                  <img
+                    src={pattern}
+                    alt="pattern"
+                    className="absolute bottom-0 right-0 -mb-5 lg:-mb-3 w-full"
+                  />
                 </div>
               </div>
             );

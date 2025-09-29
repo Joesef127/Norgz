@@ -6,8 +6,10 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./utils/ScrollToTopOnRoute";
+import useAOS from "./hooks/useAOS";
 
 function App() {
+  useAOS();
   return (
     <div className="font-poppins flex flex-col items-center justify-between bg-[#FAFCFF] min-h-screen">
       <Router>

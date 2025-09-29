@@ -23,6 +23,7 @@ const Mission = () => {
                   className="bg-[#0C3635] py-6 px-4 sm:px-7 gap-5 flex-row items-center sm:items-start   justify-start"
                   textStyle="text-white text-start text-sm"
                   iconStyle="min-w-[50px] sm:min-w-full h-[50px] sm:h-full"
+                  animationDelay={`${index * 150}`}
                 />
               );
             })}

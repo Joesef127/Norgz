@@ -20,6 +20,8 @@ const Sustainability = () => {
                 <div
                   key={index}
                   className="flex justify-start items-center gap-6 lg:gap-7 xl:gap-9 bg-white p-4 sm:p-2 lg:p-4 xl:p-6"
+                  data-aos="fade-up"
+                  data-aos-delay={`${index * 150}`}
                 >
                   <span className="min-w-4 min-h-4">
                     <img src={item.icon} alt="icon" className="w-full h-full" />

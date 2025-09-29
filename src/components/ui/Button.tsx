@@ -16,6 +16,7 @@ const Button = ({
       onClick={onClick}
       className={`w-fit flex justify-start items-start ${customStyle}`}
       data-aos="fade-right"
+      data-aos-delay="100"
     >
       <Link to={route ? route : "#"} className={className}>
         <span>

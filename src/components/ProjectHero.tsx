@@ -12,7 +12,7 @@ const ProjectHero = () => {
       ></div>
       <div className="absolute inset-0 w-full h-full z-10 bg-center bg-cover bg-no-repeat bg-[#3C151C]/60"></div>
       <div className="w-[90%] mx-auto max-w-[1280px] z-30 flex items-center justify-center pt-40 pb-60 sm:pt-60 sm:pb-80">
-        <div>
+        <div data-aos="fade-right">
           <img src={chaligon_logo_white} alt="chaligon logo" />
         </div>
       </div>

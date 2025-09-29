@@ -20,6 +20,8 @@ const Development = () => {
                     key={index}
                     style={{ backgroundImage: `url(${item.image})` }}
                     className="relative bg-cover bg-center bg-no-repeat w-full min-h-[360px] px-4 lg:px-6 xl:px-8 py-8 flex justify-start items-end"
+                    data-aos="fade-up"
+                    data-aos-delay={`${index * 150}`}
                   >
                     <p className="text-xl text-white leading-snug -tracking-tight z-10">
                       {item.caption}
@@ -38,6 +40,8 @@ const Development = () => {
                   key={index}
                   style={{ backgroundImage: `url(${item.image})` }}
                   className="relative bg-cover bg-center bg-no-repeat w-full h-full min-h-[360px] px-4 lg:px-6 xl:px-8 py-8 flex justify-start items-end"
+                  data-aos="fade-right"
+                  data-aos-delay={`${index * 150}`}
                 >
                   <p className="text-xl text-white leading-snug -tracking-tight z-10">
                     {item.caption}

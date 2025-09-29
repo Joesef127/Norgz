@@ -11,18 +11,19 @@ const PartnerWithUs = () => {
             heading="Partner With Us"
             paragraph="Whether you’re a state government, hotel brand, private equity firm, or institutional investor — we welcome partnerships that share our ambition."
             subHeading="Looking to invest, franchise, or co-develop?"
-            className="gap-3!"
+            className="gap-1! sm:gap-3!"
             hasButton
             btn_text="Let's talk"
             btnIcon={phone}
-            btnStyle="mt-8 bg-[#CA9762] border-[#CA9762] hover:text-[#CA9762] items-center"
+            btnStyle="mt-6 sm:mt-8 bg-[#CA9762] border-[#CA9762] hover:text-[#CA9762] items-center"
             route="/contact"
-            textStyle="text-[#0C3635]! text-2xl"
+            textStyle="text-[#0C3635]! text-base sm:text-2xl"
             isGradient
           />
           <div
             style={{ backgroundImage: `url(${handshake})` }}
-            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            className="w-full h-[300px] sm:h-full bg-cover bg-center bg-no-repeat"
+            data-aos="fade-right"
           >
             {/* <img src={city_street} alt="location" /> */}
           </div>

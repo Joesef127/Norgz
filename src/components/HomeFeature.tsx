@@ -11,9 +11,10 @@ const HomeFeature = () => {
           <div
             className="bg-cover bg-center bg-no-repeat w-full h-full"
             style={{ backgroundImage: `url(${skyscrapper})` }}
+            data-aos="fade-right"
           ></div>
           {/* <img src={skyscrapper} alt="skyscrapper" className="w-full" /> */}
-          <div className="flex flex-col gap-8 md:gap-10 px-6 py-10 sm:px-8 sm:py-8 md:py-10 md:px-10 bg-white">
+          <div className="flex flex-col gap-8 md:gap-10 px-6 py-10 sm:px-8 sm:py-8 md:py-10 md:px-10 bg-white" data-aos="fade-left">
             <h3 className="text-[#949494] text-sm sm:text-sm md:text-lg lg:text-xl leading-7 tracking-[2px] sm:tracking-[1.2px] md:tracking-[2px] lg:tracking-[4.6px] uppercase">
               hero Feature Project
             </h3>

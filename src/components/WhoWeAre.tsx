@@ -5,7 +5,7 @@ const WhoWeAre = () => {
   return (
     <div className="flex flex-col w-full h-full relative overflow-hidden bg-White">
       <div className="w-[90%] md:w-[95%] lg:w-[90%] max-w-[1240px] mx-auto mt-[100px] mb-10 flex flex-col justify-center items-center gap-24">
-        <div className="grid sm:grid-cols-2 justify-center items-center gap-8 sm:gap-10 md:gap-16 lg:gap-20">
+        <div className="grid sm:grid-cols-2 justify-center items-center gap-8 sm:gap-10 md:gap-16 lg:gap-20" data-aos="fade-right" data-aos-delay="200">
           <GradientHeader
             heading="Who We Are"
             paragraph="NORGZ Urban Development Company is a future-forward hospitality
@@ -19,6 +19,7 @@ const WhoWeAre = () => {
           <div
             // style={{ backgroundImage: `url(${dual_location})` }}
             className="w-full h-full bg-cover bg-center bg-no-repeat"
+            data-aos="fade-right"
           >
             <img src={dual_location} alt="location" className="h-full w-full" />
           </div>

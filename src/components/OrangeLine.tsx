@@ -12,7 +12,7 @@ const OrangeLine = ({
   return (
     <div className="bg-[#CA9762] w-full flex justify-center items-center overflow-hidden">
       {notArray ? (
-        <p className="text-white text-base leading-14 sm:text-xl sm:leading-16 text-center">
+        <p className="text-white text-base leading-14 sm:text-xl sm:leading-16 text-center" data-aos="fade-right">
           {text}
         </p>
       ) : (

@@ -15,10 +15,10 @@ const HomeHero = () => {
       <div className="absolute inset-0 w-full h-full z-10 bg-center bg-cover bg-no-repeat bg-[#0C3635]/62"></div>
       <div className="w-[90%] mx-auto max-w-[1280px] z-20 flex items-center justify-center pt-0 lg:pt-20">
         <div className="flex flex-col justify-center items-center w-full gap-6 sm:gap-20 md:gap-28 lg:gap-[172px] pb-3 sm:pb-0">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[110%] tracking-[-1px] sm:tracking-[-2.222px] font-bold text-center uppercase max-w-5xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[110%] tracking-[-1px] sm:tracking-[-2.222px] font-bold text-center uppercase max-w-5xl" data-aos="fade-right">
             Building Africa’s Most Iconic Hospitality Destinations
           </h1>
-          <div className="pt-10 pb-3 sm:pb-16 bg-[#0C3635]/69 flex flex-col justify-center items-center max-w-4xl gap-9 sm:gap-16 px-5">
+          <div className="pt-10 pb-3 sm:pb-16 bg-[#0C3635]/69 flex flex-col justify-center items-center max-w-4xl gap-9 sm:gap-16 px-5" data-aos="fade-up" data-aos-delay="100">
             <p className="max-w-3xl text-center text-sm sm:text-[22px] leading-normal font-light tracking-[-0.5px]">
               Our international brand specializes in property appraisal, sales,
               purchases, and investments. Trust us to deliver exceptional

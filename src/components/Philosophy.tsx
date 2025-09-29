@@ -19,7 +19,7 @@ const Philosophy = () => {
             textStyle="px-4 sm:px-7 border-l-2 border-[#DADADA]"
             isGradient
           />
-          <div style={{backgroundImage: `url(${city_street})`}} className="w-full h-[420px] bg-cover bg-center bg-no-repeat">
+          <div style={{backgroundImage: `url(${city_street})`}} className="w-full h-[420px] bg-cover bg-center bg-no-repeat" data-aos="fade-left">
             {/* <img src={city_street} alt="location" /> */}
           </div>
         </div>

@@ -43,13 +43,14 @@ const GradientHeader: React.FC<GradientTextProps> = ({
           } bg-clip-text ${
             isGradient && "text-transparent"
           } text-4xl font-bold leading-[4rem] tracking-[-2.222px] ${headingStyle}`}
+          data-aos="fade-right"
         >
           {heading}
         </h2>
 
         {
           subHeading && (
-            <p className="font-bold text-4xl text-[#0C3635] leading-[110.00000000000001%] tracking-[-2%]">
+            <p className="font-bold text-2xl sm:text-4xl text-[#0C3635] leading-[110.00000000000001%] tracking-[-2%]" data-aos="fade-left" data-aos-delay="100">
               {subHeading}
             </p>
           )
@@ -58,6 +59,7 @@ const GradientHeader: React.FC<GradientTextProps> = ({
         {paragraph && (
           <p
             className={`mt-2 font-normal leading-[150%] text-black ${textStyle}`}
+            data-aos="fade-left" data-aos-delay="100"
           >
             {paragraph}
           </p>

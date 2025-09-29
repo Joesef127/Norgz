@@ -40,6 +40,7 @@ const Scope = () => {
                   `}
                   textStyle={`text-white text-start text-xl! max-w-[186px]`}
                   iconStyle="min-w-[50px] sm:min-w-full h-[50px] sm:h-full"
+                  animationDelay={`${index * 150}`}
                 />
               );
             })}

@@ -7,6 +7,7 @@ type iconCardProps = {
   iconStyle?: string;
   className?: string;
   isImage?: boolean;
+  animationDelay?: string;
 };
 
 const IconCard: React.FC<iconCardProps> = ({
@@ -16,9 +17,14 @@ const IconCard: React.FC<iconCardProps> = ({
   textStyle,
   className,
   isImage,
+  animationDelay,
 }: iconCardProps) => {
   return (
-    <div className={`flex sm:flex-col gap-6 ${className}`}>
+    <div
+      className={`flex sm:flex-col gap-6 ${className}`}
+      data-aos="fade-up"
+      data-aos-delay={animationDelay}
+    >
       <span>
         {isImage ? (
           <img src={icon} alt={icon} className={iconStyle} />
