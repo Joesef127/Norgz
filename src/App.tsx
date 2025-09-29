@@ -5,11 +5,13 @@ import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./utils/ScrollToTopOnRoute";
 
 function App() {
   return (
     <div className="font-poppins flex flex-col items-center justify-between bg-[#FAFCFF] min-h-screen">
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
