@@ -1,10 +1,11 @@
 import ContactBlock from "../components/ContactBlock";
-import ProjectHero from "../components/ProjectHero";
+import MapBox from "../components/MapBox";
 
 export default function Contact() {
   return (
     <div className="w-full">
-      <ProjectHero />
+      <MapBox />
       <ContactBlock />
     </div>
-  )}
+  );
+}
