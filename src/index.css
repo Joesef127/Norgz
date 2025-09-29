@@ -1,1 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
+
+html,
+body {
+  min-height: 100vh;
+}
+
+/* Headings → Montserrat */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+/* Body text → Plus Jakarta Sans */
+p, a, span, li, div, input, textarea, button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+}
